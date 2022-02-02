@@ -1,0 +1,3 @@
+/etc/resolv.conf
+The resolver, aka DNS resolver, is what that converts domain names into addresses.
+resolv.conf is the name of the computer file in most OS where you can configure that resolver. 

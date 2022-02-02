@@ -1,0 +1,3 @@
+Cloudflare
+/*To find the provider of who.int, we use the command host or nslookup, and look for its IP address. 
+**Then, we use whois to identify the provider being that IP Address.  

@@ -1,0 +1,2 @@
+To make the intra.42.fr address reroute to 46.19.122.85, I need to modify the /etc/hosts file, and indicate manually the new address of intra.42.fr, by adding the following line:
+46.19.122.85 intra.42.fr

@@ -1,0 +1,4 @@
+the command traceroute gives us the IP address and name of the device that make the link with the outside world: it is our local IP address (aka private address), on the first line.
+Second IP address is the NAT server, which maps our IP address to another by modifying network information of the packets.
+The third IP address is our public IP, our IP address assigned to our network router by our internet provider.
+To check that, we can use traceroute of different websites and see how these 3 first IP addresses dont change.

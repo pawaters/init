@@ -1,0 +1,2 @@
+/etc/hosts
+When the machine boots, it needs to know what is the local host and broadcast host.
