@@ -1,0 +1,2 @@
+- With graphic session: login with username and password on GUI
+- with ssh session: ssh 127.0.0.1 (that IP being the localhost or loopback address. All computer use this address as their own, and that is how you connect using SSH)

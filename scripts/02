@@ -1,0 +1,17 @@
+echo "Enter the login of the account to delete"
+read login
+if [ -z $login ]
+then
+echo "Enter a valid login"
+exit 1
+fi
+
+if ! grep "^$login" /etc/passwd
+then
+echo "This user does not exist."
+exit 1
+fi
+
+if userdel -r $login
+echo "$login account deleted"
+fi
