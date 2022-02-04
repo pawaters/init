@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Enter the login of the account to delete"
 read login
 if [ -z $login ]
