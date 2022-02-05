@@ -15,5 +15,6 @@ exit 1
 fi
 
 if userdel -r $login
+then
 echo "$login account deleted"
 fi
