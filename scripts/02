@@ -14,7 +14,7 @@ echo "This user does not exist."
 exit 1
 fi
 
-sudo pkill -KILL -u $login 
+pkill -KILL -u $login 
 if userdel -r $login
 then
 echo "$login account deleted"
