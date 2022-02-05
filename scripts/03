@@ -1,39 +1,38 @@
 #!/bin/bash
 
-yes="Y"
 no="n"
 
 echo "Did you check if there are any extra files? Y/n "
 read answer
-if [ "$answer == $no" ]; then
+if [ "$answer" == "$no" ]; then
 	echo "Do it and start again"
 	exit 0
 fi
 
 echo "Did you check access rights? Y/n "
 read answer
-if [ "$answer == $no" ]; then
+if [ "$answer" == "$no" ]; then
 	echo "Do it and start again"
 	exit 0
 fi
 
 echo "Read the subject and discord again? Y/n "
 read answer
-if [ "$answer == $no" ]; then
+if [ "$answer" == "$no" ]; then
 	echo "Do it and start again"
 	exit 0
 fi
 
 echo "Checked eval form and/or asked for usual mistakes? Y/n "
 read answer
-if [ "$answer == $no" ]; then
+if [ "$answer" == "$no" ]; then
 	echo "Do it and start again"
 	exit 0
 fi
 
 echo "Added comments? Y/n "
 read answer
-if [ "$answer == $no" ]; then
+if [ "$answer" == "$no" ]; then
 	echo "Do it and start again"
 	exit 0
 fi
